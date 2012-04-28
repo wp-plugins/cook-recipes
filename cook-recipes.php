@@ -3,7 +3,7 @@
 Plugin Name: Food Recipes
 Plugin URI: http://blog.omerfarukak.com/yemek-tarifleri
 Description: Custom post type for food recipes.
-Version: 1.0
+Version: 1.0.1
 Author: Ömer Faruk AK
 Author URI: http://omerfarukak.com
 */
@@ -33,7 +33,7 @@ class AK_Cook_Recipes
 			'supports' => array('title', 'editor', 'thumbnail', 'comments'),
 			'description' => 'You can use this type for cook recipes.',
 			'menu_position' => 5,
-			'menu_icon' => plugin_dir_path(__FILE__); . '/images/food.png'
+			'menu_icon' => plugin_dir_path(__FILE__) . '/images/food.png'
 		);
 		
 		register_post_type('ak_cook', $args);

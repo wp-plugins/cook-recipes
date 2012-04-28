@@ -3,7 +3,7 @@ Contributors:
 Donate link: 
 Tags: cook, recipes
 Requires at least: 3.0
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: 3.0
 
 Custom post type for cook recipes
@@ -22,6 +22,8 @@ When you activate the plugin, you will see add new recipe link at admin panel.
 2. Activate the Plugin from Plugins page
 
 == Change log ==
+= 1.0.1 =
+ * Fixed Small Bug.
 = 1.0 =
  * Initial Release
 
